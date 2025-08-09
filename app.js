@@ -3,11 +3,12 @@
 // Word data - 100 most common Japanese words
 const wordData = [
     {
-        japanese: "食べる",
-        hiragana: "たべる",
+        japanese: "食べます",
+        hiragana: "たべます",
         chinese: "吃",
         conjugations: {
             "辞典形": { form: "食べる", hiragana: "たべる" },
+            "ます形": { form: "食べます", hiragana: "たべます" },
             "て形": { form: "食べて", hiragana: "たべて" },
             "た形": { form: "食べた", hiragana: "たべた" },
             "ない形": { form: "食べない", hiragana: "たべない" },
@@ -15,11 +16,12 @@ const wordData = [
         }
     },
     {
-        japanese: "行く",
-        hiragana: "いく",
+        japanese: "行きます",
+        hiragana: "いきます",
         chinese: "去",
         conjugations: {
             "辞典形": { form: "行く", hiragana: "いく" },
+            "ます形": { form: "行きます", hiragana: "いきます" },
             "て形": { form: "行って", hiragana: "いって" },
             "た形": { form: "行った", hiragana: "いった" },
             "ない形": { form: "行かない", hiragana: "いかない" },
@@ -27,11 +29,12 @@ const wordData = [
         }
     },
     {
-        japanese: "見る",
-        hiragana: "みる",
+        japanese: "見ます",
+        hiragana: "みます",
         chinese: "看",
         conjugations: {
             "辞典形": { form: "見る", hiragana: "みる" },
+            "ます形": { form: "見ます", hiragana: "みます" },
             "て形": { form: "見て", hiragana: "みて" },
             "た形": { form: "見た", hiragana: "みた" },
             "ない形": { form: "見ない", hiragana: "みない" },
@@ -39,11 +42,12 @@ const wordData = [
         }
     },
     {
-        japanese: "来る",
-        hiragana: "くる",
+        japanese: "来ます",
+        hiragana: "きます",
         chinese: "来",
         conjugations: {
             "辞典形": { form: "来る", hiragana: "くる" },
+            "ます形": { form: "来ます", hiragana: "きます" },
             "て形": { form: "来て", hiragana: "きて" },
             "た形": { form: "来た", hiragana: "きた" },
             "ない形": { form: "来ない", hiragana: "こない" },
@@ -51,11 +55,12 @@ const wordData = [
         }
     },
     {
-        japanese: "する",
-        hiragana: "する",
+        japanese: "します",
+        hiragana: "します",
         chinese: "做",
         conjugations: {
             "辞典形": { form: "する", hiragana: "する" },
+            "ます形": { form: "します", hiragana: "します" },
             "て形": { form: "して", hiragana: "して" },
             "た形": { form: "した", hiragana: "した" },
             "ない形": { form: "しない", hiragana: "しない" },
@@ -63,11 +68,12 @@ const wordData = [
         }
     },
     {
-        japanese: "言う",
-        hiragana: "いう",
+        japanese: "言います",
+        hiragana: "いいます",
         chinese: "说",
         conjugations: {
             "辞典形": { form: "言う", hiragana: "いう" },
+            "ます形": { form: "言います", hiragana: "いいます" },
             "て形": { form: "言って", hiragana: "いって" },
             "た形": { form: "言った", hiragana: "いった" },
             "ない形": { form: "言わない", hiragana: "いわない" },
@@ -75,11 +81,12 @@ const wordData = [
         }
     },
     {
-        japanese: "思う",
-        hiragana: "おもう",
+        japanese: "思います",
+        hiragana: "おもいます",
         chinese: "想",
         conjugations: {
             "辞典形": { form: "思う", hiragana: "おもう" },
+            "ます形": { form: "思います", hiragana: "おもいます" },
             "て形": { form: "思って", hiragana: "おもって" },
             "た形": { form: "思った", hiragana: "おもった" },
             "ない形": { form: "思わない", hiragana: "おもわない" },
@@ -87,11 +94,12 @@ const wordData = [
         }
     },
     {
-        japanese: "知る",
-        hiragana: "しる",
+        japanese: "知ります",
+        hiragana: "しります",
         chinese: "知道",
         conjugations: {
             "辞典形": { form: "知る", hiragana: "しる" },
+            "ます形": { form: "知ります", hiragana: "しります" },
             "て形": { form: "知って", hiragana: "しって" },
             "た形": { form: "知った", hiragana: "しった" },
             "ない形": { form: "知らない", hiragana: "しらない" },
@@ -99,11 +107,12 @@ const wordData = [
         }
     },
     {
-        japanese: "出る",
-        hiragana: "でる",
+        japanese: "出ます",
+        hiragana: "でます",
         chinese: "出来",
         conjugations: {
             "辞典形": { form: "出る", hiragana: "でる" },
+            "ます形": { form: "出ます", hiragana: "でます" },
             "て形": { form: "出て", hiragana: "でて" },
             "た形": { form: "出た", hiragana: "でた" },
             "ない形": { form: "出ない", hiragana: "でない" },
@@ -111,11 +120,12 @@ const wordData = [
         }
     },
     {
-        japanese: "聞く",
-        hiragana: "きく",
+        japanese: "聞きます",
+        hiragana: "ききます",
         chinese: "听",
         conjugations: {
             "辞典形": { form: "聞く", hiragana: "きく" },
+            "ます形": { form: "聞きます", hiragana: "ききます" },
             "て形": { form: "聞いて", hiragana: "きいて" },
             "た形": { form: "聞いた", hiragana: "きいた" },
             "ない形": { form: "聞かない", hiragana: "きかない" },
